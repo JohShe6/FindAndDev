@@ -1,0 +1,51 @@
+/*  Element Selectors */
+body {
+	background-color: aqua;
+}
+
+h1 {
+	font-family: "Montserrat", sans-serif;
+	color: rgb(191, 253, 253);
+}
+
+p {
+	color: #8f8f8f;
+}
+
+/* Title Section */
+
+.title {
+	background-image: url("../images/title-background.jpg");
+	background-position: 0%;
+	background-size: 100%;
+	padding: 10%;
+	text-align: right;
+	background-origin: padding-box;
+}
+
+/* How it Works Section */
+
+#how-it-works {
+	padding: 1% 10%;
+}
+
+.feature-box {
+	text-align: center;
+	padding: 5%;
+}
+
+.icon {
+	color: rgb(94, 55, 202);
+}
+
+.icon:hover {
+	color: blue;
+}
+
+/* Testimonial Section */
+
+#testimonial {
+	padding: 1% 10%;
+	background-color: rgb(12, 91, 110);
+	text-align: center;
+}
