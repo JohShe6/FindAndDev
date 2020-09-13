@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nodemy-site.example.com
+  name: nodefindanddev.example.com
   labels:
     app: my-site
 spec:
   containers:
-    - name: my-site
-      image: johshe/my-site
+    - name: findanddev
+      image: johshe/findanddev
       ports:
         - name: nodejs-port
           containerPort: 3000

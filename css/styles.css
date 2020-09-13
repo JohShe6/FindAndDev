@@ -15,7 +15,7 @@ p {
 /* Title Section */
 
 .title {
-	background-image: url("../images/title-background.jpg");
+	background-image: url("/images/title-background.jpg");
 	background-position: 0%;
 	background-size: 100%;
 	padding: 10%;
