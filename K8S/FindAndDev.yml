@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nodefindanddev.example.com
+  name: node.findanddev.example.com
   labels:
-    app: my-site
+    app: findanddev
 spec:
   containers:
     - name: findanddev
